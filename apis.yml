@@ -1,0 +1,54 @@
+aid: wine-vybe
+name: Wine Vybe
+description: >-
+  Wine Vybe is a wine, beer, and liquor database API that provides information
+  on wine regions, grape varieties, tasting notes, food pairing, awards, and
+  brewery and distillery information. The API enables developers to build
+  applications that help users discover and select wine and beverage products.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Wine
+  - Beverages
+  - Database
+  - Recommendations
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/wine-vybe/refs/heads/main/apis.yml
+created: '2026-03-16'
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis:
+  - aid: wine-vybe:wine-vybe-api
+    name: Wine Vybe API
+    description: >-
+      The Wine Vybe API provides access to a wine, beer, and liquor database
+      including wine regions, grape varieties, tasting notes, food pairing
+      recommendations, awards, producer information, brewery and distillery
+      details, and custom-built wine tasting profiles.
+    humanURL: https://winevybe.com/wine-api/
+    tags:
+      - Wine
+      - Beverages
+      - Database
+      - Tasting Notes
+    properties:
+      - type: Documentation
+        url: https://winevybe.com/wine-api/
+      - type: Reference
+        url: https://winevybe.com/apis/
+common:
+  - url: https://winevybe.com/
+    name: Wine Vybe
+    type: Website
+    description: 'null'
+  - url: https://winevybe.com/wine-api/
+    name: Wine API | Wine Vybe
+    type: Documentation
+    description: 'null'
+  - url: https://winevybe.com/apis/
+    name: APIs | Wine Vybe
+    type: Portal
+    description: 'null'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
