@@ -8,10 +8,10 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Wine
   - Beverages
   - Database
   - Recommendations
+  - Wine
 url: >-
   https://raw.githubusercontent.com/api-evangelist/wine-vybe/refs/heads/main/apis.yml
 created: '2026-03-16'
@@ -27,10 +27,10 @@ apis:
       details, and custom-built wine tasting profiles.
     humanURL: https://winevybe.com/wine-api/
     tags:
-      - Wine
       - Beverages
       - Database
       - Tasting Notes
+      - Wine
     properties:
       - type: Documentation
         url: https://winevybe.com/wine-api/
