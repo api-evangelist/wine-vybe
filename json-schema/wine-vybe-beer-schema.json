@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/api-evangelist/wine-vybe/blob/main/json-schema/wine-vybe-beer-schema.json",
+  "title": "Beer",
+  "description": "A beer product in the Wine Vybe database including brewery, style, and sensory attributes.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the beer."
+    },
+    "name": {
+      "type": "string",
+      "description": "The name of the beer."
+    },
+    "brewery": {
+      "type": "string",
+      "description": "The brewery that produces the beer."
+    },
+    "style": {
+      "type": "string",
+      "description": "The beer style category (e.g., IPA, Stout, Pilsner, Abbey Ale, Dark Lager, Cider, Pale Ale, Trappist)."
+    },
+    "abv": {
+      "type": "number",
+      "description": "Alcohol by volume percentage.",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "ibu": {
+      "type": "integer",
+      "description": "International Bitterness Units — a measure of hop bitterness.",
+      "minimum": 0
+    },
+    "description": {
+      "type": "string",
+      "description": "A description of the beer's flavor, ingredients, and characteristics."
+    },
+    "tastingNotes": {
+      "type": "string",
+      "description": "Sensory notes describing aroma, flavor, and finish."
+    },
+    "foodPairing": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "List of recommended food pairings for this beer."
+    },
+    "awards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "competition": { "type": "string" },
+          "medal": { "type": "string" },
+          "year": { "type": "integer" }
+        }
+      },
+      "description": "Awards and competition results for this beer."
+    },
+    "country": {
+      "type": "string",
+      "description": "Country of origin."
+    },
+    "imageUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL to an image of the beer bottle or can."
+    },
+    "shipping": {
+      "type": "object",
+      "properties": {
+        "weightLbs": { "type": "number" },
+        "weightKg": { "type": "number" }
+      },
+      "description": "Shipping specifications for the beer product."
+    }
+  },
+  "required": ["id", "name", "brewery", "style"]
+}

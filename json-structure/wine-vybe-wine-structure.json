@@ -1,0 +1,21 @@
+{
+  "name": "Wine",
+  "description": "Structure of a wine object returned by the Wine Vybe Wine API.",
+  "fields": [
+    { "name": "id", "type": "string", "required": true, "description": "Unique identifier for the wine." },
+    { "name": "name", "type": "string", "required": true, "description": "The name of the wine." },
+    { "name": "producer", "type": "string", "required": true, "description": "The winery or producer." },
+    { "name": "vintage", "type": "integer", "required": false, "description": "Harvest year." },
+    { "name": "region", "type": "string", "required": false, "description": "Geographic wine region." },
+    { "name": "country", "type": "string", "required": false, "description": "Country of origin." },
+    { "name": "grapeVariety", "type": "array<string>", "required": false, "description": "Grape varieties used." },
+    { "name": "style", "type": "string", "required": true, "description": "Wine style: Red, White, Rosé, Sparkling, Dessert, Fortified." },
+    { "name": "tastingNotes", "type": "string", "required": false, "description": "Sensory description." },
+    { "name": "tasteProfile", "type": "object", "required": false, "description": "Numeric scoring (1-10) of sweetness, acidity, tannin, body, finish." },
+    { "name": "foodPairing", "type": "array<string>", "required": false, "description": "Recommended food pairings." },
+    { "name": "awards", "type": "array<object>", "required": false, "description": "Competition results." },
+    { "name": "abv", "type": "number", "required": false, "description": "Alcohol by volume percentage." },
+    { "name": "imageUrl", "type": "string", "required": false, "description": "Product image URL." },
+    { "name": "shipping", "type": "object", "required": false, "description": "Shipping dimensions and weight." }
+  ]
+}

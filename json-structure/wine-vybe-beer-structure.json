@@ -1,0 +1,19 @@
+{
+  "name": "Beer",
+  "description": "Structure of a beer object returned by the Wine Vybe Beer API.",
+  "fields": [
+    { "name": "id", "type": "string", "required": true, "description": "Unique identifier for the beer." },
+    { "name": "name", "type": "string", "required": true, "description": "The name of the beer." },
+    { "name": "brewery", "type": "string", "required": true, "description": "The producing brewery." },
+    { "name": "style", "type": "string", "required": true, "description": "Beer style category." },
+    { "name": "abv", "type": "number", "required": false, "description": "Alcohol by volume percentage." },
+    { "name": "ibu", "type": "integer", "required": false, "description": "International Bitterness Units." },
+    { "name": "description", "type": "string", "required": false, "description": "Beer description." },
+    { "name": "tastingNotes", "type": "string", "required": false, "description": "Sensory description." },
+    { "name": "foodPairing", "type": "array<string>", "required": false, "description": "Recommended food pairings." },
+    { "name": "awards", "type": "array<object>", "required": false, "description": "Competition results." },
+    { "name": "country", "type": "string", "required": false, "description": "Country of origin." },
+    { "name": "imageUrl", "type": "string", "required": false, "description": "Product image URL." },
+    { "name": "shipping", "type": "object", "required": false, "description": "Shipping weight specifications." }
+  ]
+}

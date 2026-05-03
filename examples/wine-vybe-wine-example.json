@@ -1,0 +1,37 @@
+{
+  "id": "cab-sauv-opus-one-2019",
+  "name": "Opus One 2019",
+  "producer": "Opus One Winery",
+  "vintage": 2019,
+  "region": "Napa Valley",
+  "country": "United States",
+  "grapeVariety": ["Cabernet Sauvignon", "Merlot", "Cabernet Franc", "Petit Verdot", "Malbec"],
+  "style": "Red",
+  "tastingNotes": "Deep ruby in color with aromas of blackcurrant, dark cherry, cedar, and graphite. Full-bodied with velvety tannins and a long, complex finish showing notes of cassis, tobacco, and dark chocolate.",
+  "tasteProfile": {
+    "sweetness": 2,
+    "acidity": 6,
+    "tannin": 8,
+    "body": 9,
+    "finish": 9
+  },
+  "foodPairing": ["Lamb chops", "Grilled ribeye", "Aged hard cheeses", "Dark chocolate"],
+  "awards": [
+    {
+      "competition": "Wine Spectator Top 100",
+      "medal": "Top 10",
+      "year": 2022
+    }
+  ],
+  "abv": 14.5,
+  "imageUrl": "https://winevybe.com/images/opus-one-2019.jpg",
+  "shipping": {
+    "weightLbs": 3.5,
+    "weightKg": 1.59,
+    "dimensions": {
+      "height": 12.5,
+      "width": 4.0,
+      "depth": 4.0
+    }
+  }
+}

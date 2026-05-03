@@ -1,0 +1,30 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "wv": "https://winevybe.com/vocab/",
+    "Wine": "wv:Wine",
+    "Beer": "wv:Beer",
+    "Liquor": "wv:Liquor",
+    "producer": "wv:producer",
+    "vintage": "wv:vintage",
+    "region": "wv:region",
+    "grapeVariety": "wv:grapeVariety",
+    "tasteProfile": "wv:tasteProfile",
+    "tastingNotes": "wv:tastingNotes",
+    "foodPairing": "wv:foodPairing",
+    "awards": "wv:awards",
+    "brewery": "wv:brewery",
+    "style": "wv:style",
+    "abv": "wv:abv",
+    "ibu": "wv:ibu",
+    "distillery": "wv:distillery",
+    "spiritCategory": "wv:spiritCategory",
+    "name": "schema:name",
+    "description": "schema:description",
+    "country": "schema:addressCountry",
+    "imageUrl": "schema:image",
+    "Product": "schema:Product",
+    "Winery": "schema:Winery",
+    "Brewery": "schema:Brewery"
+  }
+}

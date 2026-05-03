@@ -1,0 +1,112 @@
+vocabulary:
+  name: Wine Vybe Vocabulary
+  description: >-
+    Domain vocabulary for the Wine Vybe beverage database platform covering
+    wine, beer, and spirits terminology including sensory attributes, production
+    methods, classifications, and pairing concepts.
+  version: '2026-05-03'
+  tags:
+    - Beer
+    - Beverages
+    - Database
+    - Liquor
+    - Wine
+
+  domains:
+    - name: Wine
+      description: Terms specific to wine classification, production, and sensory evaluation.
+      terms:
+        - term: Appellation
+          definition: >-
+            A legally defined geographic region used to identify the origin of
+            wine, such as Bordeaux, Napa Valley, or Rioja.
+        - term: Grape Variety
+          definition: >-
+            The cultivar of Vitis vinifera used to produce a wine, such as
+            Cabernet Sauvignon, Chardonnay, or Pinot Noir.
+        - term: Tasting Note
+          definition: >-
+            A written sensory description of a wine's aroma, flavor, and
+            finish, including references to fruits, flowers, earth, oak, or spice.
+        - term: Food Pairing
+          definition: >-
+            Recommended food combinations that complement and enhance the
+            characteristics of a specific wine, beer, or spirit.
+        - term: Vintage
+          definition: >-
+            The year in which the grapes used to produce a wine were harvested.
+        - term: Producer
+          definition: >-
+            A winery, estate, or negociant responsible for making a wine.
+        - term: Wine Region
+          definition: >-
+            A geographic area known for wine production, such as Burgundy,
+            Tuscany, or Mendoza.
+        - term: Taste Profile
+          definition: >-
+            A structured characterization of a beverage's sensory attributes
+            including sweetness, acidity, tannin, body, and finish.
+        - term: Award
+          definition: >-
+            A competition prize or rating accolade received by a wine,
+            beer, or spirit from a recognized industry body.
+
+    - name: Beer
+      description: Terms specific to beer styles, brewing, and classification.
+      terms:
+        - term: ABV
+          definition: >-
+            Alcohol By Volume — the percentage of alcohol content in a
+            beverage by volume.
+        - term: Brewery
+          definition: >-
+            A facility where beer is produced through fermentation of malted
+            grains, hops, yeast, and water.
+        - term: Beer Style
+          definition: >-
+            A classification category for beer based on its ingredients,
+            fermentation process, and flavor profile (e.g., IPA, Stout, Pilsner).
+        - term: IBU
+          definition: >-
+            International Bitterness Units — a measure of the bitterness of
+            a beer derived from hop compounds.
+        - term: Craft Beer
+          definition: >-
+            Beer produced by a small, independent brewery emphasizing
+            traditional or innovative brewing techniques.
+
+    - name: Spirits
+      description: Terms specific to distilled spirits and liquor classification.
+      terms:
+        - term: Distillery
+          definition: >-
+            A facility where spirits are produced through distillation of
+            fermented grain mashes, fruit, or other substrates.
+        - term: Spirit Category
+          definition: >-
+            A classification of distilled alcohol such as whisky, rum, vodka,
+            gin, tequila, cognac, or brandy.
+        - term: Aging
+          definition: >-
+            The process of maturing spirits in wooden barrels, typically
+            oak, to develop complexity and flavor.
+        - term: Expression
+          definition: >-
+            A specific variant or release of a spirit from a distillery,
+            often differentiated by age, cask type, or blend.
+
+    - name: API
+      description: Technical terms used in the Wine Vybe API platform.
+      terms:
+        - term: RapidAPI
+          definition: >-
+            The API marketplace platform through which Wine Vybe APIs are
+            distributed and accessed by developers.
+        - term: Per-Request Pricing
+          definition: >-
+            A billing model where API consumers are charged a fee for each
+            individual API call made.
+        - term: Database API
+          definition: >-
+            An API that provides programmatic access to a structured
+            database of products, attributes, and classifications.

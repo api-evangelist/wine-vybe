@@ -1,0 +1,24 @@
+{
+  "id": "chimay-grande-reserve-blue",
+  "name": "Chimay Grande Réserve (Blue)",
+  "brewery": "Bières de Chimay",
+  "style": "Trappist",
+  "abv": 9.0,
+  "ibu": 30,
+  "description": "A classic Trappist ale brewed by Cistercian monks at Scourmont Abbey in Belgium. Rich, complex, and full-bodied with a deep mahogany color.",
+  "tastingNotes": "Aromas of dark fruits, roasted malt, and subtle spice. Full-bodied with flavors of plum, dark cherry, caramel, and a hint of chocolate. Finishes with a warming, slightly bitter note.",
+  "foodPairing": ["Strong cheeses", "Game meats", "Dark chocolate", "Roasted meats"],
+  "awards": [
+    {
+      "competition": "World Beer Awards",
+      "medal": "Gold",
+      "year": 2023
+    }
+  ],
+  "country": "Belgium",
+  "imageUrl": "https://winevybe.com/images/chimay-blue.jpg",
+  "shipping": {
+    "weightLbs": 1.8,
+    "weightKg": 0.82
+  }
+}

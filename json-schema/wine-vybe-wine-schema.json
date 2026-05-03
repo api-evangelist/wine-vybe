@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/api-evangelist/wine-vybe/blob/main/json-schema/wine-vybe-wine-schema.json",
+  "title": "Wine",
+  "description": "A wine product in the Wine Vybe database including regional, varietal, and sensory attributes.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the wine."
+    },
+    "name": {
+      "type": "string",
+      "description": "The name of the wine."
+    },
+    "producer": {
+      "type": "string",
+      "description": "The winery or producer responsible for making the wine."
+    },
+    "vintage": {
+      "type": "integer",
+      "description": "The harvest year of the grapes used to produce the wine.",
+      "minimum": 1800,
+      "maximum": 2030
+    },
+    "region": {
+      "type": "string",
+      "description": "The geographic region where the wine was produced (e.g., Bordeaux, Napa Valley)."
+    },
+    "country": {
+      "type": "string",
+      "description": "The country of origin for the wine."
+    },
+    "grapeVariety": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "One or more grape varieties used to produce the wine."
+    },
+    "style": {
+      "type": "string",
+      "enum": ["Red", "White", "Rosé", "Sparkling", "Dessert", "Fortified"],
+      "description": "The style category of the wine."
+    },
+    "tastingNotes": {
+      "type": "string",
+      "description": "Descriptive sensory notes for the wine's aroma, flavor, and finish."
+    },
+    "tasteProfile": {
+      "type": "object",
+      "properties": {
+        "sweetness": { "type": "integer", "minimum": 1, "maximum": 10 },
+        "acidity": { "type": "integer", "minimum": 1, "maximum": 10 },
+        "tannin": { "type": "integer", "minimum": 1, "maximum": 10 },
+        "body": { "type": "integer", "minimum": 1, "maximum": 10 },
+        "finish": { "type": "integer", "minimum": 1, "maximum": 10 }
+      },
+      "description": "Numeric scoring of sensory attributes on a 1-10 scale."
+    },
+    "foodPairing": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "List of recommended food pairings for this wine."
+    },
+    "awards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "competition": { "type": "string" },
+          "medal": { "type": "string" },
+          "year": { "type": "integer" }
+        }
+      },
+      "description": "Awards and competition results for this wine."
+    },
+    "abv": {
+      "type": "number",
+      "description": "Alcohol by volume percentage.",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "imageUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL to an image of the wine bottle or label."
+    },
+    "shipping": {
+      "type": "object",
+      "properties": {
+        "weightLbs": { "type": "number" },
+        "weightKg": { "type": "number" },
+        "dimensions": {
+          "type": "object",
+          "properties": {
+            "height": { "type": "number" },
+            "width": { "type": "number" },
+            "depth": { "type": "number" }
+          }
+        }
+      },
+      "description": "Shipping specifications for the wine product."
+    }
+  },
+  "required": ["id", "name", "producer", "style"]
+}
