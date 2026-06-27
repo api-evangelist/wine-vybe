@@ -49,7 +49,7 @@ apis:
       - type: JSONStructure
         url: >-
           https://raw.githubusercontent.com/api-evangelist/wine-vybe/refs/heads/main/json-structure/wine-vybe-wine-structure.json
-      - type: Example
+      - type: Examples
         url: >-
           https://raw.githubusercontent.com/api-evangelist/wine-vybe/refs/heads/main/examples/wine-vybe-wine-example.json
 
@@ -80,7 +80,7 @@ apis:
       - type: JSONStructure
         url: >-
           https://raw.githubusercontent.com/api-evangelist/wine-vybe/refs/heads/main/json-structure/wine-vybe-beer-structure.json
-      - type: Example
+      - type: Examples
         url: >-
           https://raw.githubusercontent.com/api-evangelist/wine-vybe/refs/heads/main/examples/wine-vybe-beer-example.json
 
