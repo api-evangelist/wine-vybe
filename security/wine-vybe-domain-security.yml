@@ -1,0 +1,16 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: winevybe.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Aug 23 01:42:39 2026 GMT
+  hsts: true
+  hsts_max_age: 15552000
+domains:
+- domain: winevybe.com
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false

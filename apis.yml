@@ -108,6 +108,8 @@ apis:
         url: https://rapidapi.com/user/winevybe
 
 common:
+  - type: DomainSecurity
+    url: security/wine-vybe-domain-security.yml
   - url: https://winevybe.com/
     name: Wine Vybe
     type: Website
