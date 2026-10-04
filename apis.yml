@@ -53,7 +53,6 @@ apis:
       recommendations, awards, producer details, and custom taste profiles.
       Available through RapidAPI with per-request pricing.
     humanURL: https://winevybe.com/wine-api/
-    baseURL: https://winevybe.com
     tags:
       - Beverages
       - Database
@@ -84,7 +83,6 @@ apis:
       specifications, and tasting profiles for thousands of popular beers.
       Available through RapidAPI starting at $0.02 per request.
     humanURL: https://winevybe.com/beer-api/
-    baseURL: https://winevybe.com
     tags:
       - Beer
       - Beverages
@@ -115,7 +113,6 @@ apis:
       product details for whisky, cognac, tequila, vodka, rum, gin, brandy,
       armagnac, and more. Available through RapidAPI.
     humanURL: https://winevybe.com/
-    baseURL: https://winevybe.com
     tags:
       - Beverages
       - Database
