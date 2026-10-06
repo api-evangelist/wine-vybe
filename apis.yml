@@ -42,7 +42,7 @@ tags:
 url: >-
   https://raw.githubusercontent.com/api-evangelist/wine-vybe/refs/heads/main/apis.yml
 created: '2026-03-16'
-modified: '2026-05-03'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
   - aid: wine-vybe:wine-vybe-api
@@ -128,6 +128,8 @@ apis:
         url: https://rapidapi.com/user/winevybe
 
 common:
+  - url: https://winevybe.com/blog/
+    type: Blog
   - type: DomainSecurity
     url: security/wine-vybe-domain-security.yml
   - url: https://winevybe.com/
