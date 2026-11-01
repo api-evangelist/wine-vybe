@@ -66,106 +66,142 @@
 
 Wine Vybe is a wine, beer, and liquor database API platform that provides access to comprehensive beverage data including wine regions, grape varieties, tasting notes, food pairing recommendations, awards, producer information, brewery and distillery details, and custom taste profiles. The platform serves app developers and businesses through RESTful APIs hosted on RapidAPI.
 
-**Website:** [https://winevybe.com/](https://winevybe.com/)
-**API Portal:** [https://winevybe.com/apis/](https://winevybe.com/apis/)
+**Areas:** Beverages · Beer · Database · Food Pairing · Liquor · Recommendations · Wine
 
-## Scope
+## Wine Vybe on APIs.io
 
-- **Type:** Index
-- **Position:** Consuming
-- **Access:** 3rd-Party
+Everything profiled for Wine Vybe is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/wine-vybe/](https://apis.io/providers/wine-vybe/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (3)
 
-Beverages, Beer, Database, Food Pairing, Liquor, Recommendations, Wine
+- [Wine Vybe Wine API](https://apis.io/apis/wine-vybe/wine-vybe-api/) — The Wine Vybe Wine API provides access to thousands of wines with data including wine regions, grape varieties, tasting notes, food pairing recommendations,…
+- [Wine Vybe Beer API](https://apis.io/apis/wine-vybe/wine-vybe-beer-api/) — The Wine Vybe Beer API provides access to brewery details, ABV data, beer descriptions, food pairing recommendations, awards, packaging specifications, and…
+- [Wine Vybe Liquor API](https://apis.io/apis/wine-vybe/wine-vybe-liquor-api/) — The Wine Vybe Liquor API provides access to spirits and liquor data including distillery information, tasting notes, food pairing, and product details for…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-16
-- **Modified:** 2026-05-03
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### JSON Schema (2)
 
-### Wine Vybe Wine API
+The data models the API reads and writes.
 
-The Wine Vybe Wine API provides access to thousands of wines with data including wine regions, grape varieties, tasting notes, food pairing recommendations, awards, producer details, and custom taste profiles. Available through RapidAPI.
+- [Beer](https://apis.io/schemas/wine-vybe/wine-vybe-beer/)
+- [Wine](https://apis.io/schemas/wine-vybe/wine-vybe-wine/)
 
-**Human URL:** [https://winevybe.com/wine-api/](https://winevybe.com/wine-api/)
+#### JSON Structure (2)
 
-**Tags:** Beverages, Database, Tasting Notes, Wine
+Data models expressed in JSON Structure.
 
-**Properties:**
-- [Documentation](https://winevybe.com/wine-api/)
-- [Portal](https://winevybe.com/apis/)
-- [RapidAPI](https://rapidapi.com/user/winevybe)
+- [Wine Vybe Beer Structure](https://apis.io/json-structure/wine-vybe/wine-vybe-beer-structure/)
+- [Wine Vybe Wine Structure](https://apis.io/json-structure/wine-vybe/wine-vybe-wine-structure/)
 
-### Wine Vybe Beer API
+#### JSON-LD (1)
 
-The Wine Vybe Beer API provides access to brewery details, ABV data, beer descriptions, food pairing recommendations, awards, packaging specifications, and tasting profiles for thousands of popular beers.
+Linked-data contexts for the provider's vocabulary.
 
-**Human URL:** [https://winevybe.com/beer-api/](https://winevybe.com/beer-api/)
+- [Wine Vybe Context](https://apis.io/jsonld/wine-vybe/wine-vybe-context/)
 
-**Tags:** Beer, Beverages, Brewery, Database
+#### Vocabulary (1)
 
-**Properties:**
-- [Documentation](https://winevybe.com/beer-api/)
-- [RapidAPI](https://rapidapi.com/winevybe/api/beer9)
+The provider's domain terms, defined.
 
-### Wine Vybe Liquor API
+- [Wine Vybe Vocabulary](https://apis.io/vocabularies/wine-vybe/wine-vybe-vocabulary/)
 
-The Wine Vybe Liquor API provides access to spirits and liquor data including distillery information, tasting notes, and product details for whisky, cognac, tequila, vodka, rum, gin, brandy, armagnac, and more.
+#### Examples (2)
 
-**Human URL:** [https://winevybe.com/](https://winevybe.com/)
+Example requests and responses.
 
-**Tags:** Beverages, Database, Distillery, Liquor, Spirits
+- [Wine Vybe Beer Example](https://apis.io/examples/wine-vybe/wine-vybe-beer-example/)
+- [Wine Vybe Wine Example](https://apis.io/examples/wine-vybe/wine-vybe-wine-example/)
 
-**Properties:**
-- [Documentation](https://winevybe.com/apis/)
-- [RapidAPI](https://rapidapi.com/user/winevybe)
+#### Governance rules (1)
 
-## Common Properties
+Spectral rulesets for the provider's contracts.
+
+- [Wine Vybe — jsonschema rules](https://apis.io/rules/wine-vybe/wine-vybe-jsonschema-spectral-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Wine Vybe Domain Security](https://apis.io/security/wine-vybe/wine-vybe-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Wine Vybe Plans Pricing](https://apis.io/plans/wine-vybe/wine-vybe-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Wine Vybe Rate Limits](https://apis.io/rate-limits/wine-vybe/wine-vybe-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Wine Vybe Finops](https://apis.io/finops/wine-vybe/wine-vybe-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://winevybe.com/)
 - [Documentation](https://winevybe.com/wine-api/)
-- [Portal](https://winevybe.com/apis/)
-- [RapidAPI](https://rapidapi.com/user/winevybe)
+- [Blog](https://winevybe.com/blog/)
 
-## Artifacts
+## API Evangelist rating
 
-### JSON Schema
+**Kin Score 21.4** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-| Schema | Description |
-|--------|-------------|
-| [Wine Schema](json-schema/wine-vybe-wine-schema.json) | JSON Schema for a wine product object |
-| [Beer Schema](json-schema/wine-vybe-beer-schema.json) | JSON Schema for a beer product object |
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 24.4 |
+| Contract governance | 23.5 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 7.9 |
 
-### JSON Structure
+**Agent readiness 1.9** — human-only
 
-| Structure | Description |
-|-----------|-------------|
-| [Wine Structure](json-structure/wine-vybe-wine-structure.json) | Field-level documentation for wine objects |
-| [Beer Structure](json-structure/wine-vybe-beer-structure.json) | Field-level documentation for beer objects |
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | documented (partial credit) |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-### JSON-LD
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
 
-| Context | Description |
-|---------|-------------|
-| [Wine Vybe Context](json-ld/wine-vybe-context.jsonld) | JSON-LD context mapping beverage domain vocabulary to schema.org |
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/wine-vybe/](https://apis.io/providers/wine-vybe/).
 
-### Examples
+## How this profile is made
 
-| Example | Description |
-|---------|-------------|
-| [Wine Example](examples/wine-vybe-wine-example.json) | Example wine object (Opus One 2019) |
-| [Beer Example](examples/wine-vybe-beer-example.json) | Example beer object (Chimay Grande Réserve) |
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-### Vocabulary
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Wine Vybe: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-| Vocabulary | Description |
-|------------|-------------|
-| [Wine Vybe Vocabulary](vocabulary/wine-vybe-vocabulary.yml) | Domain vocabulary for wine, beer, spirits, and API concepts |
+## Open an issue
 
-## Maintainers
-
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/wine-vybe/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
